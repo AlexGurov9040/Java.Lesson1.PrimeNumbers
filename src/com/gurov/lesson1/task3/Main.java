@@ -27,7 +27,7 @@ public class Main {
         for (int i=a;i<=b;i++){
             prime = true;
             for (int j=2;j<Math.abs(b);j++){
-                if ((i % j ==0) & (i != j) || (i == 0)){
+                if ((i % j ==0) & (i != j) || (i < 2)){
                     prime = false;
                     break;
                 }
